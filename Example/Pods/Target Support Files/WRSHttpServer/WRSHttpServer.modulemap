@@ -1,0 +1,6 @@
+framework module WRSHttpServer {
+  umbrella header "WRSHttpServer-umbrella.h"
+
+  export *
+  module * { export * }
+}

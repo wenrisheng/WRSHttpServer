@@ -1,0 +1,25 @@
+PODS:
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - WRSHttpServer (0.0.1):
+    - GCDWebServer (~> 3.5.4)
+
+DEPENDENCIES:
+  - WRSHttpServer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+
+EXTERNAL SOURCES:
+  WRSHttpServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  WRSHttpServer: 99b26eecdd07b8a48d0c57f05f7c914f9fd8873c
+
+PODFILE CHECKSUM: b2167a2a733081045f2b18c6540dc15b09a3365b
+
+COCOAPODS: 1.12.0

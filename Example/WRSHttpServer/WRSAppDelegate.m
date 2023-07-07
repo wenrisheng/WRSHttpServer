@@ -8,11 +8,14 @@
 
 #import "WRSAppDelegate.h"
 
+
 @implementation WRSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.webServer = [[GCDWebServer alloc] init];
+    
     return YES;
 }
 
